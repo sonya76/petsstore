@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  l
+}
+#headerMenu {
+  display: flex;
+  
+  margin: 0 1rem;
+}
+#headerMenu > li {
+  list-style: none;
+  padding: 1rem;
+}
