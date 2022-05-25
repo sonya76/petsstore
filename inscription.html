@@ -10,68 +10,69 @@
   <body>
     <form name="Inscription" action="inscription.html" method="get">
       <main>
-        <p>
+        <div class="secu">
+          <label>Votre email :</label>
 
-          Votre Prénom :
-          <input type="text" name="prenom" value="" />
-        </p>
-        <p>
-          Votre Nom :
-          <input type="text" name="nom" value="" />
-        </p>
-        <p>
-            Votre email :
-            <input type="text" name="nom" value="" />
-          </p>
-        <p>
-          Votre Mot de passe :
+          <input type="text" name="email" value="" />
+          <label>Confirmation Email :</label>
+
+          <input type="text" name="emailcheck" value="" />
+
+          <label>Votre Mot de passe :</label>
+
           <input type="password" name="passe" value="" />
-        </p>
-        <p>
+          <label>Confirmer le mot de passe :</label>
+
+          <input type="password" name="passecheck" value="" />
+        </div>
+        <div class="infop">
+          <label>Civilité :</label>
           <input type="radio" name="civi" value="Mme" /> Madame
           <input type="radio" name="civi" value="Mlle" /> Mademoiselle
           <input type="radio" name="civi" value="Mr" /> Monsieur
-        </p>
 
-        <p>
-          Vous êtes
-          <select name="sexe">
-            <option value="Monsieur">Monsieur</option>
-            <option value="Madame" selected="selected">Madame</option>
-            <option value="Mademoiselle">Un Mademoiselle</option>
-          </select>
-        </p>
-        
-        <p>
-          Adresse :
+          <label>Votre Nom :</label>
+
+          <input type="text" name="Nom" value="" />
+
+          <label>Votre Prénom:</label>
+
+          <input type="text" name="Prénom" value="" />
+          <label>Date de naissance :</label>
+
+          <input type="text" name="date" value="" />
+          <label>Téléphone :</label> <input type="text" name="tel" value="" />
+          
+</div>
+<div class="domicile">
+    <label>Adresse (N° et rue):</label>
           <textarea name="le-message" rows="1" cols="40">
-Vous pouvez saisir ici votre adresse.</textarea>
-        </p>
-        <p>
-            Adresse 2 :
-            <textarea name="le-message" rows="1" cols="40">
-           complimentaire d'adresse </textarea>
-        </p>
-            <p>
-                Adresse 3 :
-                <textarea name="le-message" rows="1" cols="40">
-           complimentaire d'adresse </textarea></p>
-           <p>
-            Code Postale :
-            <input type="text" name="nom" value="" />
-          </p>
-          <p>
-            Ville :
-            <input type="text" name="nom" value="" />
-          </p>
-          <p>
-            Téléphone :
-            <input type="text" name="nom" value="" />
-          </p>
-        <p>
+Vous pouvez saisir ici votre adresse.</textarea
+          >
+
+    
+
+          <textarea name="le-message" rows="1" cols="40">
+           Compléments (bâtiment,code...) </textarea
+          >
+
+        
+
+          <textarea name="le-message" rows="1" cols="40">
+           Lieux dit </textarea
+          >
+
+          <label> Code Postale :</label>
+
+          <input type="text" name="cp" value="" />
+
+          <label>Ville :</label>
+
+          <input type="text" name="Ville" value="" />
+
           <input type="submit" value="Envoyer" />
           <input type="reset" value="Annuler" />
-        </p>
+        </div>
       </main>
     </form>
   </body>
