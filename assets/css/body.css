@@ -1,0 +1,12 @@
+body{
+    color:#9D5D35;
+    text-align: center;
+}
+#Inscription{
+    display: flex;
+  
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-left: 50%;
+}

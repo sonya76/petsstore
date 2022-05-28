@@ -1,80 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inscription</title>
-    <link rel="stylesheet" href="./assets/css/inscription.css" />
-  </head>
 
-  <body>
-    <form name="Inscription" action="inscription.html" method="get">
-      <main>
-          <h2>Inscription</h2>
-          <div id="form">
-        <div class="secu">
-          <label>Votre email :
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/body.css">
+  <title>Inscription</title>
+</head>
 
-          <input type="text" name="email" value="" required/></label>
-          <label>Confirmation Email :</label>
+<body>
+  <header>
+    <nav id="navp">
+      <img src="./assets/img/logo1.png" alt="">
+      <ul id="headMenu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form id="Inscription" action="inscription.html" method="get">
 
-          <input type="text" name="emailcheck" value="" required/>
+    <h2>Inscription</h2>
+    <fieldset>Email</h2>
+      <input type="text" name="email" placeholder="Email" />
+      <input type="text" name="emailconifrm" placeholder="Confirm Email" />
+      <input type="password" name="pass" placeholder="Password" />
+      <input type="password" name="cpass" placeholder="Confirm Password" />
+    </fieldset>
+    <fieldset>Information</h2>
+      <select>
+        <option>Madame
+        <option>Mademoiselle
+        <option>Monsieur
+      </select>
+      <input type="text" name="Nom" placeholder="Votre Nom" />
+      <input type="text" name="Prénom" placeholder="Votre Prénom" />
+      <input type="date" id="start" name="trip-start" />
+      <input type="text" name="tel" placeholder="Votre numero de téléphone" />
+    </fieldset>
+    <fieldset>Domicile</h2>
+      <textarea name="address" placeholder="Address"></textarea>
+      <textarea name="address1" placeholder="Compléments (bâtiment,code...)"></textarea>
+      <textarea name="address2" placeholder="Lieux dit"></textarea>
+      <input type="text" name="cp" placeholder="Code Postale" />
+      <input type="text" name="Ville" placeholder="Ville" />
+      <input type="submit" value="Envoyer" />
+    </fieldset>
+  </form>
+</body>
 
-          <label>Votre Mot de Passe :</label>
-
-          <input type="password" name="passe" value="" required/>
-          <label>Confirmer le mot de passe :</label>
-          <input type="password" name="passecheck" value="" required/>
-        
-        </div>
-        <hr>
-        <div class="infop">
-          <label>Civilité :</label>
-          <input type="radio" name="civi" value="Mme" /> Madame
-          <input type="radio" name="civi" value="Mlle" /> Mademoiselle
-          <input type="radio" name="civi" value="Mr" /> Monsieur
-
-          <label>Votre Nom :</label>
-
-          <input type="text" name="Nom" value="" required/>
-
-          <label>Votre Prénom:</label>
-
-          <input type="text" name="Prénom" value="" required/>
-          <label>Date de naissance :</label>
-
-          <input type="date" id="start" name="trip-start" value=""required />
-          <label>Téléphone :</label> <input type="text" name="tel" value=""required />
-        </div>
-        <hr>
-        <div class="domicile">
-          <label>Adresse (N° et rue):</label>
-          <textarea name="le-message" rows="1" cols="40" required>
-Vous pouvez saisir ici votre adresse.</textarea
-          >
-
-          <textarea name="le-message" rows="1" cols="40">
-           Compléments (bâtiment,code...) </textarea
-          >
-
-          <textarea name="le-message" rows="1" cols="40">
-           Lieux dit </textarea
-          >
-
-          <label> Code Postale :</label>
-
-          <input type="text" name="cp" value=""required />
-
-          <label>Ville :</label>
-
-          <input type="text" name="Ville" value="" required/>
-
-          <input type="submit" value="Envoyer" />
-          <input type="reset" value="Annuler" />
-        </div>
-    </div>
-      </main>
-    </form>
-  </body>
 </html>
