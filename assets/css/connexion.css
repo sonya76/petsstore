@@ -1,29 +1,59 @@
-.some-page-wrapper {
-    margin: 15px;
 
-  }
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+
+* {
+  font-family: "Stint,"Helvetica Neue,Helvetica,Arial";
+}
+body {
+  margin: 0;
+  background-color: #FBF8F6;
+  font-family:"arial";
+ 
+ 
+}
+h1, h2, h3, p{
+  margin: 15px;
   
+}
+.hearderConnexion h1, p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+      
+.logoTitre{
+  font-family: "Stint Ultra Expanded";
+  font-size: 25px;
+  color : #9D5D35;
+
+}
   .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width:60%;
   }
   
   .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex-basis: 50%;
     flex: 1;
   }
   
   .left-column {
+    
+    height: 400px;
    
-    height: 100px;
   }
   
   .right-column {
-  
-    height: 100px;
+    background-color:#d6c4b8;
+    height: 400px;
   }
-  
