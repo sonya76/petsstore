@@ -1,5 +1,12 @@
 h2,h3{
     text-align: center;}
+    input[type=search]{
+        width: 100%;
+        padding: 12px 0px;
+        border: 0px solid #ccc;
+        border-radius: 50px;
+        resize: vertical;
+    }
 input[type=text],input[type=password],select,input[type=date],textarea
 {
     width: 100%;

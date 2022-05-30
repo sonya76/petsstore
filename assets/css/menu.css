@@ -27,7 +27,8 @@ img {
 #headMenu a {
   font-family: "montserrat", Arial, Helvetica, sans-serif;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 500;
+  font-size: large;
   color: black;
 }
 #headMenu a:hover {
