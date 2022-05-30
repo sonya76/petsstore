@@ -3,7 +3,7 @@ h2,h3{
 input[type=text],input[type=password],select,input[type=date],textarea
 {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 0px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
@@ -14,15 +14,14 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    margin: 20px 0px 20px 100px;
+    margin: 20px 90px 20px 100px;
 }
 input[type=submit]:hover {
     background-color: #9D5D35;
 }
 .Connexion,.Information,.Adresse{
     
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 5px 5px 5px rgb(99, 97, 97);
         
     margin: 0px  40% 0 40%;
 }
