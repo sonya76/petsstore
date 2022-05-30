@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 #navp{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 #navp,#headMenu{
     display: flex;
@@ -30,9 +30,21 @@ body{
 #headMenu a{
     font-family: "montserrat",Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 550;
+    font-size: large;
     color:black;
 }
 #headMenu a:hover{
     color:#9D5D35;
+}
+ 
+input[type="search"] {
+
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+    
+
 }
