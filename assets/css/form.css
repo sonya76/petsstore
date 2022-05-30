@@ -12,7 +12,7 @@ input[type=text],input[type=password],select,input[type=date],textarea
     width: 100%;
     padding: 12px 0px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 50px;
     resize: vertical;
 }
 input[type=submit] {
