@@ -1,12 +1,15 @@
 body{
     margin: 0;
 }
-
+#navp{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 #navp,#headMenu{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #F5F1EE;
+  
     
 }
 #headMenu{
@@ -19,7 +22,8 @@ body{
     margin: .5rem;
 }
 
-img{
+.logo{
+    margin-top: 0;
     height: 140px;
     width: 200px;
 }

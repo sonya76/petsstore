@@ -1,0 +1,60 @@
+
+    * {
+        box-sizing: border-box;
+        
+    }
+    
+    form {
+        position: absolute;
+        /* postulat de départ */
+     
+        justify-content: center;
+        /* à 50%/50% du parent référent */
+      
+    }
+form div + div {
+    margin-top: 2em;
+    }
+    
+    label {
+    display: inline-block;
+    width: 300px;
+    margin-left: 0px;
+    margin-right:0px ;
+    
+    }
+    img{
+        margin-top: 10%;
+        height: 20px;
+        width: 50px;
+    }
+    input, textarea {
+    
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    }
+    
+    textarea {
+    vertical-align: top;
+    
+    height: 5em;
+    
+    }
+    
+    input[type=submit] {
+        margin-top: 25px;
+        background-color: black;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        width: 25%;
+        
+    }
+    
+    input[type=submit]:hover {
+        background-color: #9D5D35;
+    }
