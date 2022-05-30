@@ -1,9 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
-
-* {
-  font-family: "Stint,"Helvetica Neue,Helvetica,Arial";
-}
 body {
     margin: 0;
     background-color: #FBF8F6;
@@ -15,12 +10,4 @@ body {
    h2, h3{
     align-items: center;
   }
-  /* .Connexion {
-     
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-  } */
   
