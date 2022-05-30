@@ -1,0 +1,19 @@
+input[type=text],input[type=password],select,input[type=date],textarea
+{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px 20px 100px;
+}
+input[type=submit]:hover {
+    background-color: #9D5D35;
+}
