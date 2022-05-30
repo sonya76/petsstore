@@ -1,21 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
 
-* {
-  font-family: "Stint,"Helvetica Neue,Helvetica,Arial";
-}
+
 body {
   margin: 0;
   background-color: #FBF8F6;
   font-family:"arial";
- 
- 
 }
-h1, h2, h3, p{
-  margin: 15px;
+h1, h2, h3, p {
+  margin: 25px;
   
 }
-.hearderConnexion h1, p{
+.hearderConnexion h1{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,34 +21,58 @@ h1, h2, h3, p{
   justify-content: center;
 }
 
-      
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:80%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex: 1;
+}
+.left-column {
+  height: 550px;
+  width: 550px;
+  box-shadow: 5px 5px 5px rgb(99, 97, 97);
+}
+.right-column {
+  background-color:#d6c4b8;
+  height: 550px;
+  width: 550px;
+  box-shadow: 5px 5px 5px rgb(99, 97, 97);
+}
 .logoTitre{
-  font-family: "Stint Ultra Expanded";
+  font-family: "Stint Ultra Expanded regular medium bold xbold";
+  font-weight: 530;
+  font-weight: 700;
+  font-weight: 800;
+  font-weight: 400;
   font-size: 25px;
   color : #9D5D35;
-
 }
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width:60%;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 50%;
-    flex: 1;
-  }
-  
-  .left-column {
-    
-    height: 400px;
-   
-  }
-  
-  .right-column {
-    background-color:#d6c4b8;
-    height: 400px;
-  }
+.logoTitreNoir{
+  font-family: "Stint Ultra Expanded regular medium bold xbold";
+  font-weight: 530;
+  font-weight: 700;
+  font-weight: 800;
+  font-weight: 400;
+  font-size: 25px;
+}
+.nouveauCompte{
+  text-align: center;
+}
+ul.listePrivileges {
+  list-style-type:square;
+  line-height: 300%;
+}
+ul.listePrivileges li::before {
+  content: "\2022";
+  color : #9D5D35;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
