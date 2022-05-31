@@ -1,72 +1,112 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/inscription.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Inscription</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/css/menu.css">
-  <link rel="stylesheet" href="./assets/css/form.css">
-  <link rel="stylesheet" href="./assets/css/inscription.css">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
-  <title>Inscription</title>
-</head>
-
-<body>
-  <header>
-    <nav id="navp">
-      <img src="./assets/img/logo1.png" alt="">
+  <body>
+    <header>
+      <nav id="navp">
+        <img src="./assets/img/logo1.png" alt="" />
         <ul id="headMenu">
-        <li><input type="search" placeholder="    Rechercher"></li>
-        <i class="fa-solid fa-house"></i>
-          <i class="fa-solid fa-phone"></i>
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-basket-shopping"></i>
-      </ul>
-    </nav>
-  </header>
-  <form id="Inscription" action="inscription.html" method="post">
+          <input type="search" placeholder="    Rechercher" />
+         <li><a href=""> <i class="fa-solid fa-house fa-2xl"></i><br><br>Home</a></li> 
+          <li><a href=""><i class="fa-solid fa-phone fa-2xl"></i><br><br>Contact</a></li> 
+          <li><a href=""><i class="fa-solid fa-user fa-2xl"></i><br><br>Connexion</a></li> 
+          <li><a href=""> <i class="fa-solid fa-basket-shopping fa-2xl"></i><br><br>Panier</a></li> 
+        </ul>
+      </nav>
+    </header>
+    <form id="Inscription" action="inscription.html" method="post">
+      <h2>Inscription</h2>
+      <h3>Connexion</h3>
+      <div class="Connexion">
+        <div>
+          <input type="text" name="email" placeholder=" Email" required />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="emailconifrm"
+            placeholder=" Confirm Email"
+            required
+          />
+        </div>
+        <div>
+          <input type="password" name="pass" placeholder=" Password" required />
+        </div>
+        <div>
+          <input
+            type="password"
+            name="cpass"
+            placeholder=" Confirm Password"
+            required
+          />
+        </div>
+      </div>
+      <h3>Information</h3>
+      <div class="Information">
+        <div>
+          <select>
+            <option selected>Civilite</option>
+            <option value="Madame">Madame</option>
+            <option value="Mademoiselle">Mademoiselle</option>
+            <option value="Monsieur">Monsieur</option>
+          </select>
+        </div>
 
-    <h2>Inscription</h2>
-    <h3>Connexion</h3>
-    <div class="Connexion">
-      <div> <input type="text" name="email" placeholder=" Email" required/></div>
-      <div> <input type="text" name="emailconifrm" placeholder=" Confirm Email" required/></div>
-      <div> <input type="password" name="pass" placeholder=" Password" required/></div>
-      <div> <input type="password" name="cpass" placeholder=" Confirm Password" required/></div>
-    </div>
-    <h3>Information</h3>
-    <div class="Information">
-      <div><select>
-        <option selected>Civilite</option>
-          <option value="Madame">Madame
-          <option value="Mademoiselle">Mademoiselle
-          <option value="Monsieur">Monsieur
-        </select></div>
-
-      <div> <input type="text" name="Nom" placeholder=" Votre Nom" required/></div>
-      <div> <input type="text" name="Prénom" placeholder=" Votre Prénom" required/></div>
-      <div> <input type="date" id="start" name="trip-start" required/></div>
-      <div> <input type="text" name="tel" placeholder=" Votre numero de téléphone" required/></div>
-    </div> 
-    <h3>Adresse</h3>
-    <div class="Adresse">
-   
-    <div> <textarea name="address" placeholder=" Address" required></textarea></div>
-    <div> <textarea name="address1" placeholder=" Compléments (bâtiment,code...)"></textarea></div>
-    <div> <textarea name="address2" placeholder=" Lieux dit"></textarea></div>
-    <div> <input type="text" name="cp" placeholder=" Code Postale" /></div>
-    <div> <input type="text" name="Ville" placeholder=" Ville" /></div>
-   </div> 
-   <div class="buton"> <input type="submit" value="Envoyer" /></div>
-
-  </form>
-</body>
-
+        <div>
+          <input type="text" name="Nom" placeholder=" Votre Nom" required />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="Prénom"
+            placeholder=" Votre Prénom"
+            required
+          />
+        </div>
+        <div><input type="date" id="start" name="trip-start" required /></div>
+        <div>
+          <input
+            type="text"
+            name="tel"
+            placeholder=" Votre numero de téléphone"
+            required
+          />
+        </div>
+      </div>
+      <h3>Adresse</h3>
+      <div class="Adresse">
+        <div>
+          <textarea name="address" placeholder=" Address" required></textarea>
+        </div>
+        <div>
+          <textarea
+            name="address1"
+            placeholder=" Compléments (bâtiment,code...)"
+          ></textarea>
+        </div>
+        <div>
+          <textarea name="address2" placeholder=" Lieux dit"></textarea>
+        </div>
+        <div><input type="text" name="cp" placeholder=" Code Postale" /></div>
+        <div><input type="text" name="Ville" placeholder=" Ville" /></div>
+      </div>
+      <div class="buton"><input type="submit" value="Envoyer" /></div>
+    </form>
+  </body>
 </html>
