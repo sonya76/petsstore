@@ -6,7 +6,7 @@ body {
 h1, h2, h3, p {
   margin: 25px;
 }
-.hearderConnexion h1{
+.hearder h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,34 +19,32 @@ h1, h2, h3, p {
   margin: 4rem auto; 
   width: 80%;
 }
-.row, .rowTitre{
+.row, .container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.column {
+.container-titre, .container-left, .container-right {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
   flex: 1;
 }
-.left-column {
+.box-left {
   height: 550px;
   width: 550px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.right-column {
+.box-right {
   background-color:#d6c4b8;
   height: 550px;
   width: 550px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.left-column-titre{
+.left-titre{
   width: 550px;
-
 }
-.right-column-titre{
-  
+.right-titre{
   width: 550px;
 }
 .logoTitre{
