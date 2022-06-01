@@ -1,6 +1,3 @@
-
-
-
 body {
   margin: 0;
   background-color: #FBF8F6;
@@ -8,24 +5,24 @@ body {
 }
 h1, h2, h3, p {
   margin: 25px;
-  
 }
 .hearderConnexion h1{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .box {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 4rem auto; 
+  width: 80%;
 }
-
-.row {
+.row, .rowTitre{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width:80%;
 }
 .column {
   display: flex;
@@ -36,13 +33,21 @@ h1, h2, h3, p {
 .left-column {
   height: 550px;
   width: 550px;
-  box-shadow: 5px 5px 5px rgb(99, 97, 97);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .right-column {
   background-color:#d6c4b8;
   height: 550px;
   width: 550px;
-  box-shadow: 5px 5px 5px rgb(99, 97, 97);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.left-column-titre{
+  width: 550px;
+
+}
+.right-column-titre{
+  
+  width: 550px;
 }
 .logoTitre{
   font-family: "Stint Ultra Expanded regular medium bold xbold";
@@ -62,6 +67,9 @@ h1, h2, h3, p {
   font-size: 25px;
 }
 .nouveauCompte{
+  text-align: center;
+}
+.monCompte{
   text-align: center;
 }
 ul.listePrivileges {

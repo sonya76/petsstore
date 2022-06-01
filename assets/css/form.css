@@ -5,7 +5,8 @@
 form {
   position: absolute;
   /* postulat de départ */
-
+  margin-top: 20px;
+  margin-left: 20px;
   justify-content: center;
   /* à 50%/50% du parent référent */
 }
@@ -13,17 +14,15 @@ form {
 input[type="text"],input[type="password"] {
   width: 100%;
   margin: 15px;
-  padding: 12px 20px;
+  padding: 12px 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
-  
 }
 
 label {
   margin: 15px;
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+ 
 }
 
 input[type="submit"] {
@@ -45,7 +44,7 @@ input[type="submit"]:hover {
   display:flex;
   justify-content: end;
   text-decoration: none;
-  margin: 15px;
+  margin: 0px;
   color: #d6c4b8;
 }
 
@@ -55,5 +54,5 @@ a:focus {
 }
 
 #submitConnex{
-    margin: 20px 0px 20px 190px;
+    margin: 50px 0px 10px 150px;
 }
