@@ -19,8 +19,8 @@ form div + div {
     label {
     display: inline-block;
     width: 300px;
-    margin-left: 0px;
-    margin-right:0px ;
+    margin-left: 10px;
+    margin-right:10px ;
     
     }
     img{
@@ -30,8 +30,10 @@ form div + div {
     }
     input, textarea {
     
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
+    margin-left: 10px;
+    margin-right:10px ;
     border: 1px solid #ccc;
     border-radius: 4px;
 
