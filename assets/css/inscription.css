@@ -1,13 +1,70 @@
-
-body {
+/* @media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  } */
+  body {
     margin: 0;
     background-color: #FBF8F6;
     font-family:"arial";
-    align-items: center;
-   
+  }
+ #Inscription{
+    display: flex;
+   justify-content: center; 
+ }
+  .box{
+    display: flex;
+  
+  }
+ .ligne,.ligne2,.ligne3,.ligne4
+{
+  display: flex;
+}
+
+  
+  .gauche {
+   padding: 50px;
+height: 550px;
+width: 550px;
+border: 2px solid rgba(99, 99, 99, 0.2);
+    
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+  
+  .droite {
+    padding: 50px;
+    border: 2px solid #d6c4b8;
+    height: 550px;
+width: 550px;
+  background-color: #d6c4b8;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+ #PasswordConfirm,#nom{
+  width: 235px;
+ }
+  
+
+  #ville{
+    width: 291px;
+  }
+  #codepostale{
+    width: 100px;
+  }
+  #indicatif{
+    width: 80px;
+  }
+  input[type=button] {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px 20px 190px;
    
   }
-   h2, h3{
-    align-items: center;
+  
+  input[type="button"]:hover {
+    background-color: #9d5d35;
   }
   

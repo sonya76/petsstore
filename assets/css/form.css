@@ -1,36 +1,33 @@
-h2,h3
-{
-    text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-   
-input[type=text],input[type=password],select,input[type=date],textarea
-{
-    width: 100%;
-    padding: 12px 0px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+/*  form {
+    position: absolute;
+     postulat de départ 
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+     à 50%/50% du parent référent 
+  } */
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
 }
-input[type=submit] 
-{
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 20px 90px 20px 100px;
+
+input[type="text"],
+input[type="password"],
+select,
+input[type="date"] {
+  width: 100%;
+
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
-input[type=submit]:hover
-{
-    background-color: #9D5D35;
-}
-.Connexion,.Information,.Adresse{
-    
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin: 0px  40% 0 40%;
-}
-.buton
-{
-    text-align: center;
+
+label {
+  margin: 15px;
 }
