@@ -39,6 +39,10 @@ width: 550px;
   background-color: #d6c4b8;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
+  textarea {
+    height: 53px;
+    width: 448px;
+}
  #PasswordConfirm,#nom{
   width: 235px;
  }
