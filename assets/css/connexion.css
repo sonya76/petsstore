@@ -3,82 +3,58 @@ body {
   background-color: #FBF8F6;
   font-family:"arial";
 }
-h1, h2, h3, p {
-  margin: 25px;
-}
 .hearder h2 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top : 55px;
 }
-
-.box {
+.containerConnexion {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin: 4rem auto; 
   width: 80%;
-}
-.row, .container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.container-titre, .container-left, .container-right {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
-  flex: 1;
+  
 }
 .box-left {
   height: 550px;
   width: 550px;
+  padding: 15px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .box-right {
   background-color:#d6c4b8;
   height: 550px;
   width: 550px;
+  padding: 5px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.left-titre{
-  width: 550px;
+.box-right em {
+  padding: 22px;
+  color : #9D5D35;
 }
-.right-titre{
+.left-titre, .right-titre{
   width: 550px;
 }
 .logoTitre{
   font-family: "Stint Ultra Expanded regular medium bold xbold";
-  font-weight: 530;
-  font-weight: 700;
-  font-weight: 800;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 22px;
   color : #9D5D35;
 }
-.logoTitreNoir{
-  font-family: "Stint Ultra Expanded regular medium bold xbold";
-  font-weight: 530;
-  font-weight: 700;
-  font-weight: 800;
-  font-weight: 400;
-  font-size: 25px;
-}
-.nouveauCompte{
-  text-align: center;
-}
-.monCompte{
+.nouveauCompte,.monCompte
+{
   text-align: center;
 }
 ul.listePrivileges {
-  list-style-type:square;
+ list-style-type:square;
   line-height: 300%;
 }
 ul.listePrivileges li::before {
-  content: "\2022";
-  color : #9D5D35;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
+}
+li::marker{
+  color : #9D5D35;
 }
